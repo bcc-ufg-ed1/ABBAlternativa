@@ -6,6 +6,7 @@
 
 #define OK 0
 #define ESTRUTURA_NAO_INICIALIZADA -1
+#define CHAVE_EXISTENTE -2
 
 typedef struct {
     int item;

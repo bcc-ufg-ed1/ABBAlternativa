@@ -12,6 +12,7 @@ int main() {
     inserir(minhaArv, 2);
     inserir(minhaArv, 4);
     inserir(minhaArv, 0);
+    inserir(minhaArv, 0);
 
     remover(minhaArv, 3);
 

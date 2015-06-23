@@ -82,6 +82,9 @@ No* inserirR(No* arv, int item) {
 int inserir(ABB* arv, int item) {
     if (arv == NULL)
         return ESTRUTURA_NAO_INICIALIZADA;
+    if (buscarR(arv->raiz, item))
+        return CHAVE_EXISTENTE;
+
     arv->raiz = inserirR(arv->raiz, item);
     arv->tam++;
     return OK;
